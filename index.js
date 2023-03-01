@@ -13,4 +13,19 @@ const reverseString = (string) => {
   return string.split('').reverse().join('');
 };
 
-module.exports = { stringLength, reverseString };
+class calculator {
+  add = (x, y) => {
+    return (x + y);
+  }
+  subtract = (x, y) => {
+    return (x - y);
+  }
+  divide = (x, y) => {
+    return (x / y);
+  }
+  multiply = (x, y) => {
+    return (x * y);
+  }
+}
+
+module.exports = { stringLength, reverseString, calculator };
